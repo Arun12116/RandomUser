@@ -1,4 +1,3 @@
-
 import React from 'react'
 import "./Nav.css"
 const Navbar = () => {
@@ -10,10 +9,10 @@ const Navbar = () => {
                         <p>Geekster</p>
                     </div>
                     <ul className='list'>
-                        <a href=''>Home</a>
-                        <a href=''>Contact</a>
-                        <a href=''>Product</a>
-                        <a href=''>Cart</a>
+                        <a href='/'>Home</a>
+                        <a href='/'>Contact</a>
+                        <a href='/'>Product</a>
+                        <a href='/'>Cart</a>
                       
                     </ul>
 
