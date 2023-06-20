@@ -28,9 +28,9 @@ const User = () => {
 
                         {
 
-                            user.map((item) => {
+                            user.map((item,index) => {
 
-                                return <Tbody>
+                                return <Tbody key={index}>
                                     <Tr>
                                         <Td>
                                             <img src={item.picture.medium
